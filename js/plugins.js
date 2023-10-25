@@ -117,14 +117,14 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
  * 
  * Open source under the BSD License. 
  * 
- * Copyright © 2001 Robert Penner
+ * Copyright ï¿½ 2001 Robert Penner
  * All rights reserved.
  *
  * TERMS OF USE - jQuery Easing
  * 
  * Open source under the BSD License. 
  * 
- * Copyright © 2008 George McGinley Smith
+ * Copyright ï¿½ 2008 George McGinley Smith
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -158,7 +158,7 @@ function viewportWidth(){return document.documentElement.clientWidth||document.b
 
 
 // 10. loader
-!function(d){d.fn.rotator=function(t){var a=d.extend({starting:0,ending:100,percentage:!0,color:"#ff264a",lineWidth:2,timer:10,radius:40,fontStyle:"Raleway",fontSize:"14px",fontColor:"#111111",backgroundColor:"#ffffff",callback:function(){}},t);this.empty().append("<canvas height ="+this.height()+" width="+this.width()+" id='my-canvas'/ ></canvas>");var e=document.getElementById("my-canvas"),i=e.width/2,r=e.height/2,o=a.radius,l=e.getContext("2d");if(a.backgroundColor){var n=e.getContext("2d");n.arc(i,r,o,0,2*Math.PI,!1),n.strokeStyle=a.backgroundColor,n.lineWidth=a.lineWidth,n.stroke()}var f=a.ending-a.starting,c=a.starting,s=setInterval(function(){var t;t=a.percentage?c+"":c;var e=(1.5+c/50)*Math.PI,n=(++c/50+1.5)*Math.PI;l.beginPath(),l.arc(i,r,o,e,n,!1),l.lineWidth=a.lineWidth,l.strokeStyle=a.color,l.stroke(),l.font=a.fontSize+" "+a.fontStyle,l.textAlign="center",l.textBaseline="middle",l.fillStyle=a.fontColor,l.clearRect(i-1.5*parseInt(a.fontSize),r-parseInt(a.fontSize)/2,3*parseInt(a.fontSize),parseInt(a.fontSize)),l.fillText(t,i,r),f<=c&&(window.clearInterval(s),t=a.percentage?c+"%":c,l.clearRect(i-1.5*parseInt(a.fontSize),r-parseInt(a.fontSize)/2,3*parseInt(a.fontSize),parseInt(a.fontSize)),l.fillText(t,i,r),"function"==typeof a.callback&&a.callback.call(this))},a.timer)}}(jQuery);
+!function(d){d.fn.rotator=function(t){var a=d.extend({starting:0,ending:100,percentage:!0,color:"#c9a504",lineWidth:2,timer:10,radius:40,fontStyle:"Raleway",fontSize:"14px",fontColor:"#111111",backgroundColor:"#ffffff",callback:function(){}},t);this.empty().append("<canvas height ="+this.height()+" width="+this.width()+" id='my-canvas'/ ></canvas>");var e=document.getElementById("my-canvas"),i=e.width/2,r=e.height/2,o=a.radius,l=e.getContext("2d");if(a.backgroundColor){var n=e.getContext("2d");n.arc(i,r,o,0,2*Math.PI,!1),n.strokeStyle=a.backgroundColor,n.lineWidth=a.lineWidth,n.stroke()}var f=a.ending-a.starting,c=a.starting,s=setInterval(function(){var t;t=a.percentage?c+"":c;var e=(1.5+c/50)*Math.PI,n=(++c/50+1.5)*Math.PI;l.beginPath(),l.arc(i,r,o,e,n,!1),l.lineWidth=a.lineWidth,l.strokeStyle=a.color,l.stroke(),l.font=a.fontSize+" "+a.fontStyle,l.textAlign="center",l.textBaseline="middle",l.fillStyle=a.fontColor,l.clearRect(i-1.5*parseInt(a.fontSize),r-parseInt(a.fontSize)/2,3*parseInt(a.fontSize),parseInt(a.fontSize)),l.fillText(t,i,r),f<=c&&(window.clearInterval(s),t=a.percentage?c+"%":c,l.clearRect(i-1.5*parseInt(a.fontSize),r-parseInt(a.fontSize)/2,3*parseInt(a.fontSize),parseInt(a.fontSize)),l.fillText(t,i,r),"function"==typeof a.callback&&a.callback.call(this))},a.timer)}}(jQuery);
 
 
 // 11. page scroll
